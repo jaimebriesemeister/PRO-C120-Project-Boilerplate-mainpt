@@ -57,7 +57,7 @@ def bot_response(user_input):
    # extraia a classe de predicted_class_label
    predicted_class = ""
 
-   # agora temos a tag prevista, selecione uma responsa aleatória
+   # agora que temos a tag prevista, selecione uma responsa aleatória
 
    for intent in intents['intents']:
     if intent['tag']==predicted_class:
