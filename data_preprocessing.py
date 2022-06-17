@@ -140,7 +140,7 @@ def preprocess_train_data():
   
     stem_words, tag_classes, word_tags_list = create_bot_corpus(words, classes, pattern_word_tags_list, ignore_words)
     
-    # Converta as palavras tronco e classes para o formato de arquivo pickel do Python
+    # Converta as palavras-tronco e classes para o formato de arquivo pickel do Python
     pickle.dump(stem_words, open('words.pkl','wb'))
     pickle.dump(tag_classes, open('classes.pkl','wb'))
 
